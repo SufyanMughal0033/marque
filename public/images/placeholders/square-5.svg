@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1200" viewBox="0 0 1200 1200">
+  <defs>
+    <linearGradient id="g1" x1="0%" y1="0%" x2="100%" y2="100%" gradientTransform="rotate(65 0.5 0.5)">
+      <stop offset="0%" stop-color="#3C3530"/>
+      <stop offset="55%" stop-color="#6E5437"/>
+      <stop offset="100%" stop-color="#C9AD7C"/>
+    </linearGradient>
+    <filter id="grain1">
+      <feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="2" stitchTiles="stitch" result="noise"/>
+      <feColorMatrix in="noise" type="matrix" values="0 0 0 0 1  0 0 0 0 1  0 0 0 0 1  0 0 0 0.02 0"/>
+      <feComposite operator="over" in2="SourceGraphic"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="1200" fill="url(#g1)"/>
+  <circle cx="420" cy="900" r="168" fill="none" stroke="rgba(255,255,255,0.06)" stroke-width="1"/><circle cx="600" cy="780" r="336" fill="none" stroke="rgba(255,255,255,0.06)" stroke-width="1"/><circle cx="240" cy="660" r="503.99999999999994" fill="none" stroke="rgba(255,255,255,0.06)" stroke-width="1"/><circle cx="420" cy="540" r="672" fill="none" stroke="rgba(255,255,255,0.06)" stroke-width="1"/><circle cx="600" cy="420" r="840" fill="none" stroke="rgba(255,255,255,0.06)" stroke-width="1"/>
+  <line x1="0" y1="1" x2="1200" y2="-59" stroke="rgba(255,255,255,0.035)" stroke-width="1"/><line x1="0" y1="121" x2="1200" y2="61" stroke="rgba(255,255,255,0.035)" stroke-width="1"/><line x1="0" y1="241" x2="1200" y2="181" stroke="rgba(255,255,255,0.035)" stroke-width="1"/><line x1="0" y1="361" x2="1200" y2="301" stroke="rgba(255,255,255,0.035)" stroke-width="1"/><line x1="0" y1="481" x2="1200" y2="421" stroke="rgba(255,255,255,0.035)" stroke-width="1"/><line x1="0" y1="601" x2="1200" y2="541" stroke="rgba(255,255,255,0.035)" stroke-width="1"/><line x1="0" y1="721" x2="1200" y2="661" stroke="rgba(255,255,255,0.035)" stroke-width="1"/><line x1="0" y1="841" x2="1200" y2="781" stroke="rgba(255,255,255,0.035)" stroke-width="1"/><line x1="0" y1="961" x2="1200" y2="901" stroke="rgba(255,255,255,0.035)" stroke-width="1"/><line x1="0" y1="1081" x2="1200" y2="1021" stroke="rgba(255,255,255,0.035)" stroke-width="1"/>
+  <rect width="1200" height="1200" filter="url(#grain1)" opacity="0.5"/>
+</svg>

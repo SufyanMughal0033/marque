@@ -1,0 +1,88 @@
+import type { EventTypeItem } from "@/lib/types";
+
+export const eventTypes: EventTypeItem[] = [
+  {
+    id: "weddings",
+    slug: "weddings",
+    title: "Weddings",
+    description: "Full-scale weddings hosted across our main hall, lounge, and outdoor spaces.",
+    image: { src: "/images/placeholders/square-1.svg", alt: "Wedding stage decorated with florals and warm lighting" },
+  },
+  {
+    id: "mehndi",
+    slug: "mehndi",
+    title: "Mehndi",
+    description: "Vibrant, colour-forward setups suited to daytime or evening mehndi celebrations.",
+    image: { src: "/images/placeholders/square-2.svg", alt: "Colourful mehndi event decor with floral seating" },
+  },
+  {
+    id: "barat",
+    slug: "barat",
+    title: "Barat",
+    description: "Grand arrival sequences and a stage designed for the moment guests remember most.",
+    image: { src: "/images/placeholders/square-3.svg", alt: "Barat stage setup with elegant floral backdrop" },
+  },
+  {
+    id: "walima",
+    slug: "walima",
+    title: "Walima",
+    description: "Refined, elegant evenings with a dining experience built around your guest list.",
+    image: { src: "/images/placeholders/square-4.svg", alt: "Elegant walima reception hall in the evening" },
+  },
+  {
+    id: "engagements",
+    slug: "engagements",
+    title: "Engagements",
+    description: "Intimate ring ceremonies with a softer, more personal setup.",
+    image: { src: "/images/placeholders/square-5.svg", alt: "Intimate engagement ceremony seating arrangement" },
+  },
+  {
+    id: "nikkah",
+    slug: "nikkah",
+    title: "Nikkah",
+    description: "A calm, dignified setting for the nikkah ceremony and family gathering that follows.",
+    image: { src: "/images/placeholders/square-6.svg", alt: "Nikkah ceremony hall with simple elegant decor" },
+  },
+  {
+    id: "corporate-events",
+    slug: "corporate-events",
+    title: "Corporate Events",
+    description: "AV-equipped spaces suited to annual dinners, launches, and company milestones.",
+    image: { src: "/images/placeholders/square-7.svg", alt: "Corporate event hall set up for a formal dinner" },
+  },
+  {
+    id: "conferences",
+    slug: "conferences",
+    title: "Conferences",
+    description: "Configurable seating and staging for conferences and panel discussions.",
+    image: { src: "/images/placeholders/square-8.svg", alt: "Conference hall with rows of seating and a stage" },
+  },
+  {
+    id: "birthdays",
+    slug: "birthday-celebrations",
+    title: "Birthday Celebrations",
+    description: "Celebratory setups scaled to milestone birthdays of any size.",
+    image: { src: "/images/placeholders/square-9.svg", alt: "Birthday celebration hall decorated for a party" },
+  },
+  {
+    id: "private-events",
+    slug: "private-events",
+    title: "Private Events",
+    description: "Closed, personalised gatherings hosted with complete privacy.",
+    image: { src: "/images/placeholders/square-10.svg", alt: "Private event lounge with intimate seating" },
+  },
+  {
+    id: "product-launches",
+    slug: "product-launches",
+    title: "Product Launches",
+    description: "A blank canvas for brand storytelling, staging, and guest experience.",
+    image: { src: "/images/placeholders/square-11.svg", alt: "Product launch stage with branded backdrop" },
+  },
+  {
+    id: "family-gatherings",
+    slug: "family-gatherings",
+    title: "Family Gatherings",
+    description: "Warm, unfussy spaces for reunions, aqeeqahs, and family milestones.",
+    image: { src: "/images/placeholders/square-12.svg", alt: "Family gathering seated around dining tables" },
+  },
+];
